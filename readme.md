@@ -6,7 +6,7 @@
 - **Student ID**:8905450
 - **Class**: PROG2390 - Small Business Solutions - Sec4 
 - **Date**: 2025-03-11 
-- **GitHub Repository**: [Comparing Python and C# Syntax Repository]()  
+- **GitHub Repository**: [Comparing Python and C# Syntax Repository](https://github.com/AleksandrAinidinov/lab)  
 
 ---
 
@@ -21,7 +21,7 @@ This lab explores the differences between Python and C# by implementing a simple
 
 1. **Clone the repository**:
    ```bash
-   git clone ?
+   git clone https://github.com/AleksandrAinidinov/lab.git
    cd lab
    ```
 
@@ -41,27 +41,27 @@ This lab explores the differences between Python and C# by implementing a simple
 ---
 
 ## Comparing Python Syntax with C#
-General Syntax Difficulty:
-Python - Easier to read and understand, since its syntax is really close to regular English.
-C# - More structured and explicit, hence more difficult to understand.
+1. General Syntax Difficulty:
+Python: Easier to read and understand, as its syntax is very close to regular English.
+C#: More structured and explicit, which makes it harder to grasp initially.
 
-Variable Declaration:
-Python - Does not require to declare variable types.
-C# - Requires to declare variable types (int number = 0) or it will give you an error.
+2. Variable Declaration:
+Python: Does not require declaring variable types.
+C#: Requires declaring variable types (e.g., int number = 0); otherwise, it will give an error.
 
-Reading User Input and Printing out Data:
-Python - Uses 'input()' and 'print()' .
-C# - Uses 'Console.ReadLine()' and 'Console.Write() / Console.WriteLine()' .
+3. Reading User Input and Printing out Data:
+Python: Uses input() and print().
+C#: Uses Console.ReadLine() and Console.Write() / Console.WriteLine().
 
-Parsing User Input:
-Python - Uses 'int()'.
-C# - Uses 'Convert.ToInt32()' / 'int.Parse()'.
+4. Parsing User Input:
+Python: Uses ```bash int()``` to convert input to an integer.
+C#: Uses Convert.ToInt32() or int.Parse().
 
-Conditions:
+5. Conditions:
 Python - Uses 'if/elif/else', does not require parentheses around condition.
 C# - Uses 'if/else if/else', requires parentheses around conditions.
 
-Loops:
+6. Loops:
 Python - Uses 'for i in range(n + 1):', right end of range is not included.
 C# - Uses 'for (int i = 0; i <= n; i++)', right end of range is included if '<=' is used.
 ---
