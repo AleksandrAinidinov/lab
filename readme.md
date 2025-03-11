@@ -26,17 +26,18 @@ This lab explores the differences between Python and C# by implementing a simple
    ```
 
 2. **Install Python**:
-   Ensure you have Python installed, then run:
-   ```bash
-   python test.py
-   ```
+   - Download Python from [python.org](https://www.python.org/downloads/) and ensure the "Add Python to PATH" option is checked during installation.
+   - Verify installation by running:
+     ```bash
+     python --version
+     ```
 
 3. **Install Dotnet**:
-   Ensure you have Dotnet installed, then run:
-   ```bash
-   dotnet build
-   dotnet run
-   ```
+   - Download the .NET SDK from [.NET Downloads](https://dotnet.microsoft.com/download) and follow the installation instructions.
+   - Verify installation by running:
+     ```bash
+     dotnet --version
+     ```
 
 ---
 
